@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+}
+
+.margin{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.row:hover .image {
+    opacity: 0.3;
+}
+
+.product-holder {
+    position: relative;
+    display: block;
+}
+
+.plus-image {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transform-origin: top left;
+    transition: all 1s;
+    z-index: 2;
+}
+
+.plus-image:hover{
+    transform: scale(1.2) translate(-50%,-50%);
+}
+
+.plus-imageHS {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0.6);
+    transform-origin: center center;
+    transition: all 1s;
+    z-index: 1;
+}
+
+.plus-imageHS:hover{
+    transform: scale(0.8) translate(-50%,-50%);
+    transform-origin: top left;
+}
+
+.plus-image {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transform-origin: top left;
+    transition: all 1s;
+}
+
+.plus-image:hover{
+    transform: scale(1.2) translate(-50%,-50%);
+}
+
+body {
+    background-image: url("../images/bg.png");
+    background-position: center;
+}
+
+.modal-content{
+    background-color: transparent;
+}

@@ -1,0 +1,23 @@
+.crewmate_space {
+    animation:crewmate_space_anim 20s linear infinite;
+    z-index: 2;
+    position: absolute;
+}
+
+.crewmate_space_inline {
+    animation:crewmate_rotate_inline 7s linear infinite;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: scale(2);
+}
+
+@keyframes crewmate_space_anim {
+    0%{left:-5%;top:-5%;}
+    100% {transform: rotate(360deg);left: 100%;top:100%}
+}
+
+@keyframes crewmate_rotate_inline {
+    0%{transform: rotate(0deg) scale(2);left:20%;}
+    100% {transform: rotate(360deg) scale(0);left: 20%;}
+}
