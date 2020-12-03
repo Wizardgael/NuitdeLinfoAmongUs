@@ -8,8 +8,8 @@ Bonne chance :)
 
 #SPOILER#
 Ils sont sur les pages:
-  index
-  Merch
   About
-  Privacy
+  Game (page d'accueil)
+  Merch Policy
+  Privacy Policy
  
